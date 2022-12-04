@@ -16,5 +16,5 @@ getInput(rawData => {
     console.log(`[PART 1]: ${highest}`);
 
     const partTwo = elfTotals.slice(-3).reduce((acc, elf) => acc + elf);
-    console.log('[DEBUG]: partTwo ::: ', partTwo);
+    console.log(`[PART 2]: ${partTwo}`);
 });
